@@ -1,0 +1,84 @@
+#body{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: rgb(28, 177, 227);
+}
+
+#pasek_gora_strony{
+    margin-left: 60px;
+    display: flex;
+    align-items: start;
+}
+
+#logo_firmy{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+#Menu{
+    height: 70px;
+    width: 1400px; 
+    margin-top: 0; 
+    margin-left: 60px; 
+    border-radius: 15px;
+    padding: 40px; 
+    background-color: rgb(253, 123, 169);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#kon, #zdj, #cena, #help, #Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(28, 177, 227);
+    font-size: 1em;
+    font-family: arial;
+    text-decoration: none;
+    height: 80px;
+    width: 200px; 
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#środek_strony{
+    margin-left: 60px;
+    height: 800px;
+    width: 1700px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* #Oferty, #Lokalizacje, #content3, #content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(28, 177, 227);
+    font-size: 1em;
+    font-family: arial;
+    text-decoration: none;
+    height: 80px;
+    width: 200px; 
+    border-radius: 15px;
+    padding: 15px;
+} */
+
+#Oferty, #Lokalizacje, #content3, #content4 {
+    width: calc(50% - 30px); 
+    height: calc(50% - 30px);
+    margin-bottom: 30px; 
+    background-color: white;
+    border-radius: 15px;
+}
